@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  margin: 0rem 0rem 2rem 0rem;
+}
+
+.container-center {
+  margin: auto;
+  max-width: 225px;
+}
+
+.display {
+  border: 2px solid #000;
+  border-radius: 10px;
+  height: 15px;
+  padding: 1rem;
+  text-align: right;
+  background-color: lightgray;
+}
+
+.keypad {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.button-number {
+  padding: 1.2rem;
+  border: 0;
+  width: 100%;
+  color: #000;
+  background: #EED8A8;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.button-dot {
+  padding: 1.2rem;
+  border: 0;
+  width: 100%;
+  color: #000;
+  background: #dedede;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.button-equal {
+  padding: 1.2rem;
+  border: 0;
+  width: 100%;
+  color: #000;
+  background: #E1BEA8;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.button-mathsign {
+  padding: 1.2rem;
+  border: 0;
+  width: 100%;
+  color: #000;
+  background: #BDC6AF;
+  font-weight: bolder;
+  border-radius: 10px;
+}
